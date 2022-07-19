@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 
+
 export default function Home() {
   return (
     
@@ -45,9 +46,9 @@ export default function Home() {
             href="#"
             className={styles.card}
           >
-            <h3>NFT's &rarr;</h3>
+            <h3>Detroit Projects &rarr;</h3>
             <p>
-              Coming Soon...
+              Check out these local crypto projects coming straight out the D!
             </p>
           </a>
         </div>
