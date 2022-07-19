@@ -1,8 +1,10 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import axios from 'axios'
 
 export default function Home() {
   return (
+    
     <div className={styles.container}>
       <Head>
         <title>Bitcoin Detroit</title>
@@ -12,6 +14,7 @@ export default function Home() {
       <div class="header" id="myHeader">
   
 </div>
+
         <h1 className={styles.title}>
           Welcome to <a href="https://discord.gg/sNFzWjCQAB">Bitcoin Detroit</a>
         </h1>
@@ -49,7 +52,10 @@ export default function Home() {
             </p>
           </a>
         </div>
+        
       </main>
+ 
+
 
       <footer className={styles.footer}>
         <a href="https://discord.gg/sNFzWjCQAB" target="_blank" rel="noopener noreferrer">
